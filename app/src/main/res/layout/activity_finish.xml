@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="@dimen/_80sdp"
+                android:layout_height="@dimen/_80sdp"
+                android:padding="@dimen/_5sdp"
+                android:src="@drawable/logo_splash" />
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_25sdp"
+                android:padding="@dimen/_5sdp"
+                android:src="@drawable/successful" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/_10sdp"
+                android:fontFamily="@font/poppins_medium"
+                android:gravity="center"
+                android:text="@string/text_not1"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_13sdp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/_10sdp"
+                android:fontFamily="@font/poppins_bold"
+                android:gravity="center"
+                android:text="@string/text_not2"
+                android:textColor="@color/color_blue"
+                android:textSize="@dimen/_13sdp" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/tvCall"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:drawableLeft="@drawable/call"
+            android:drawablePadding="@dimen/_10sdp"
+            android:fontFamily="@font/poppins_bold"
+            android:gravity="center"
+            android:text="bargainautos@telkomsa.net"
+            android:textColor="@color/color_red"
+            android:textSize="@dimen/_13sdp" />
+
+
+        <TextView
+            android:id="@+id/tvCall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:layout_marginBottom="@dimen/_20sdp"
+            android:drawableLeft="@drawable/call2"
+            android:drawablePadding="@dimen/_10sdp"
+            android:fontFamily="@font/poppins_bold"
+            android:gravity="center"
+            android:text="011-811-1787 011-811-8212"
+            android:textColor="@color/color_red"
+            android:textSize="@dimen/_13sdp" />
+
+
+    </RelativeLayout>
+</layout>
